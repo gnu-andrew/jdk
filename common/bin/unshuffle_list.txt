@@ -530,6 +530,7 @@ jdk/src/java.desktop/macosx/classes/com/apple/laf/resources : jdk/src/macosx/cla
 jdk/src/java.desktop/macosx/classes/sun/awt/resources/awtosx.properties : jdk/src/macosx/classes/sun/awt/resources/awtosx.properties
 jdk/src/java.desktop/macosx/classes/sun/java2d/BackBufferCapsProvider.java : jdk/src/macosx/classes/sun/java2d/BackBufferCapsProvider.java
 jdk/src/java.desktop/macosx/classes/sun/font : jdk/src/macosx/classes/sun/font
+jdk/src/java.desktop/macosx/classes/sun/lwawt : jdk/src/macosx/classes/sun/lwawt
 jdk/src/java.desktop/macosx/conf/flavormap.properties : jdk/src/macosx/lib/flavormap.properties
 jdk/src/java.desktop/macosx/native/include/jawt_md.h : jdk/src/macosx/javavm/export/jawt_md.h
 jdk/src/java.desktop/macosx/native/libawt_lwawt/awt/ApplicationDelegate.h : jdk/src/macosx/native/sun/awt/ApplicationDelegate.h
