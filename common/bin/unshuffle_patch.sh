@@ -134,8 +134,8 @@ unshuffle() {
   fi
   verbose "Extracted path: \"$path\""
 
-  # Only source can be shuffled, or unshuffled
-  if ! echo "$path" | egrep '^src/.*' > /dev/null ; then
+  # Only source and data in make tree can be shuffled, or unshuffled
+  if ! echo "$path" | egrep '^src/.*|^make/.*' > /dev/null ; then
     verbose "Not a src path, skipping."
     echo "$line" >> $output
     return
@@ -143,7 +143,7 @@ unshuffle() {
 
   # Shuffle or unshuffle?
   if [ "${what}" = "" ] ; then
-    if echo "$path" | egrep '^src/java\..*|^src/jdk\..*|^src/demo*|^src/sample*' > /dev/null ; then
+    if echo "$path" | egrep '^src/java\..*|^src/jdk\..*|^src/demo*|^src/sample*|^make/' > /dev/null ; then
       what="unshuffle"
     else
       what="shuffle"

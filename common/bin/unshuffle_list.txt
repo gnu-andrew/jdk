@@ -88,6 +88,7 @@ jaxws/src/jdk.xml.bind/share/classes/META-INF/services/com.sun.tools.internal.xj
 jaxws/src/jdk.xml.bind/share/classes/org/relaxng/datatype : jaxws/src/share/jaxws_classes/org/relaxng/datatype
 jaxws/src/jdk.xml.ws/share/classes/com/sun/tools/internal/ws : jaxws/src/share/jaxws_classes/com/sun/tools/internal/ws
 jaxws/src/jdk.xml.ws/share/classes/META-INF/services/com.sun.tools.internal.ws.wscompile.Plugin : jaxws/src/share/jaxws_classes/com/sun/tools/etc/META-INF/services/com.sun.tools.internal.ws.wscompile.Plugin
+jdk/make/data/currency/CurrencyData.properties : jdk/src/share/classes/java/util/CurrencyData.properties
 jdk/src/demo/share : jdk/src/share/demo
 jdk/src/demo/share/jpda/com/sun/tools/example : jdk/src/share/classes/com/sun/tools/example
 jdk/src/demo/solaris/jni/Poller : jdk/src/solaris/demo/jni/Poller
