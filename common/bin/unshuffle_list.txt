@@ -983,6 +983,7 @@ jdk/src/java.desktop/unix/native/libsunwjdga : jdk/src/solaris/native/sun/jdga
 jdk/src/java.desktop/windows/classes/META-INF/services : jdk/src/windows/classes/sun/print/services
 jdk/src/java.desktop/windows/classes/sun/awt/windows/ThemeReader.java : jdk/src/windows/classes/sun/awt/windows/ThemeReader.java
 jdk/src/java.desktop/windows/classes/sun/font : jdk/src/windows/classes/sun/font
+jdk/src/java.desktop/windows/classes/com/sun/java/swing/plaf : jdk/src/share/classes/com/sun/java/swing/plaf
 jdk/src/java.desktop/windows/conf/flavormap.properties : jdk/src/windows/lib/flavormap.properties
 jdk/src/java.desktop/windows/conf/images/cursors/cursors.properties : jdk/src/windows/lib/images/cursors/cursors.properties
 jdk/src/java.desktop/windows/native/common/awt/utility/rect.h : jdk/src/windows/native/sun/awt/utility/rect.h
