@@ -1657,3 +1657,7 @@ langtools/src/jdk.jdeps/share/classes/com/sun/tools/jdeps : langtools/src/share/
 langtools/src/jdk.jdeps/share/classes/com/sun/tools/jdeps/resources : langtools/src/share/classes/com/sun/tools/jdeps/resources
 nashorn/src/jdk.scripting.nashorn/share/classes : nashorn/src
 hotspot/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot : hotspot/agent/src/share/classes/sun/jvm/hotspot
+hotspot/src/jdk.hotspot.agent/macosx/native/libsaproc : hotspot/agent/src/os/bsd
+hotspot/src/jdk.hotspot.agent/linux/native/libsaproc : hotspot/agent/src/os/linux
+hotspot/src/jdk.hotspot.agent/solaris/native/libsaproc : hotspot/agent/src/os/solaris
+hotspot/src/jdk.hotspot.agent/windows/native/libsaproc : hotspot/agent/src/os/win32
